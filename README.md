@@ -1,8 +1,8 @@
-# Legal Document Translator
+# Legal Document Translator👾
 
 This project is designed to translate legal documents into another language. It was developed during the UC Berkeley Hackathon (CalHacks 10.0) using Next.js and Tailwind CSS. The translation process involves creating a custom model of legal vocabulary and utilizing the Facebook LLaMA model to translate the content of PDFs into simpler language before translating it.
 
-## Table of Contents
+## Table of Contents🤗
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Installation](#installation)
@@ -13,13 +13,13 @@ This project is designed to translate legal documents into another language. It 
 - [Contact](#contact)
 
 
-## Features
+## Features🐢
 - Custom model of legal vocabulary
 - Translation of legal content into simpler language
 - PDF content extraction and translation
 - User-friendly interface with Tailwind CSS
 
-## Getting Started
+## Getting Started🎮
 
 ### Prerequisites
 - Node.js
@@ -34,7 +34,8 @@ This project is designed to translate legal documents into another language. It 
     ```
 
 2. **Install dependencies:**
-    ```npm install
+    ```bash
+    npm install
     ```
 
 3. **Set up environment variables:**
