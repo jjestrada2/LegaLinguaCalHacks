@@ -1,40 +1,90 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Legal Document Translator
+
+This project is designed to translate legal documents into another language. It was developed during the UC Berkeley Hackathon (CalHacks 10.0) using Next.js and Tailwind CSS. The translation process involves creating a custom model of legal vocabulary and utilizing the Facebook LLaMA model to translate the content of PDFs into simpler language before translating it.
+
+## Table of Contents
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [Contributing](#contributing)
+- [Credits](#credits)
+- [Contact](#contact)
+
+
+## Features
+- Custom model of legal vocabulary
+- Translation of legal content into simpler language
+- PDF content extraction and translation
+- User-friendly interface with Tailwind CSS
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+- Node.js
+- npm or yarn
+- Git
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/legal-document-translator.git
+   cd legal-document-translator
+    ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Install dependencies:**
+    ```npm install
+    ```
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+3. **Set up environment variables:**
+    - NEXT_PUBLIC_API_KEY=your_api_key
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Usage🎮
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Start the development server:
+```npm run dev
+    ```
+2. Open your browser and navigate to http://localhost:3000.
 
-## Learn More
+3. Upload a PDF file and select the target language for translation.
 
-To learn more about Next.js, take a look at the following resources:
+### Technologies:🏋️
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Next.js
+Tailwind CSS
+Facebook LLaMA Model
+Node.js
+React
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Contributing🙇‍♂️
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If you would like to contribute to this project, please fork the repository and create a pull request with your changes. Contributions are always welcome!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License📜
+
+This project is licensed under the MIT License - see the [LICENSE](https://choosealicense.com/licenses/mit/) file for details.
+
+## Credits🔥
+
+- [Juan Estrada](https://github.com/jjestrada2) - Developer of this project.
+- UC Berkeley Hackathon (CalHacks 10.0)
+- Facebook AI for the LLaMA model
+- Next.js
+- Tailwind CSS
+
+## Contact🦻
+
+For support or inquiries, please contact [Juan Estrada](mailto:juan5801331@gmail.com).
+
+
+
+
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+</p>
