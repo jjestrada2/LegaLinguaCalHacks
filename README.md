@@ -45,7 +45,8 @@ This project is designed to translate legal documents into another language. It 
 ## Usage🎮
 
 1. Start the development server:
-```npm run dev
+```bash
+npm run dev
     ```
 2. Open your browser and navigate to http://localhost:3000.
 
