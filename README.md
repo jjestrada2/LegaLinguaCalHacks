@@ -35,7 +35,7 @@ This project is designed to translate legal documents into another language. It 
 
 2. **Install dependencies:**
     ```bash
-    npm install
+       npm install
     ```
 
 3. **Set up environment variables:**
